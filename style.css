@@ -473,7 +473,7 @@ h1{
 
 .explore{
     margin-top: 3rem;
-    border: 2px solid rgb(201, 195, 195);
+    border: 1px solid rgb(201, 195, 195);
     width: 80vw;
     border-radius: 30px;
     transition: all 0.5s ease;
@@ -523,6 +523,7 @@ h1{
 
 .footer-list-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-list li{
@@ -552,7 +553,7 @@ h1{
     }
 
     .get-app{
-        margin: 20px 0 0;
+        margin: 18px 0 0;
     }
 
     .get-app h4 a:hover{
@@ -569,7 +570,7 @@ h1{
     }
 
     .nav-list li a:hover{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .logo-div{
@@ -830,13 +831,88 @@ h1{
         margin-top: 38rem;
     }
 
-    
-
     .explore{
         height: 70px;
+        width: 300px;
+        border-radius: 10px;
     }
 
-    .explore h2{
+    .near-content h2{
         font-size: 16px;
+    }
+
+    .explore h2 i{
+        margin-left: 92%;
+    }
+
+    .explore:hover{
+        transform: scale(1.2);
+    }
+
+    .near-content2 h2{
+        font-size: 16px;
+    }
+
+    .near-content2 i{
+        margin-left: 92%;
+    }
+
+    .near-content3 h2{
+        font-size: 16px;
+    }
+
+    .near-content3 i{
+        margin-left: 92%;
+    }
+
+    .near-content4 h2{
+        font-size: 16px;
+    }
+
+    .near-content4 i{
+        margin-left: 92%;
+    }
+
+    .footer-panel{
+        height: 900px;
+        border: 2x solid black;
+    }
+
+    .footer-logo{
+        height: 80px;
+        width: 120px;
+        margin-left: 2rem;
+    }
+
+
+    .footer-list li{
+        margin-left: 2rem;
+        font-size: 12px;
+        padding-right: 95px;
+    }
+
+    .footer-list h6{
+        margin-left: 2rem;
+    }
+
+    .footer-list2{
+        margin-top: 2rem;
+    }
+
+    .footer-list2 h6{
+        margin-left: 9.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer-list{
+        transition: all 0.5s ease;
+    }
+
+    .footer-list h6:hover{
+        font-size: 1.1rem;
+    }
+
+    .footer-list li:hover{
+        color: red;
     }
 }
