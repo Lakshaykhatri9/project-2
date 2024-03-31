@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 30rem;
+    width: 100%;
+    background-image: url("zomato\ hero\ image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 900;
+}
+
+.download-icon{
+    position: relative;
+    top: 4rem;
+}
+
+.download-icon{
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+.top-panel{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 8rem;
+}
+
+.top-panel li{
+    padding-right: 2rem;
+    padding-top: 4rem;
+}
+
+.top-panel a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    background-image: url("zomato\ logo.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6rem;
+    position: relative;
+    top: 7rem;
+    left: 28rem; 
+    align-items: center;
+}
+
+.ncr{
+    font-size: 3rem;
+    position: relative;
+    top: 9rem;
+    font-weight: 100;
+    left: 14rem;
+}
+
+.search{
+    height: 3rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 14rem;
+    top: 10rem;
+    width: 62rem;
+}
+
+.search-icon{
+    font-size: 3.5rem;
+    position: relative;
+    left: 76.5rem;
+    top: 5.5rem;
+    right: 10rem;
+    color: black;
+    background-color: white;
+}
+
+.dishes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #e9e3e3;
+}
+
+.box{
+    height: 20rem;
+    width: 25%;
+    background-color: whites;
+}
+
+.dish1-img{
+    background-image: url("img1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16rem;
+    transition: all 1s ease;
+}
+
+.dish1 h4:hover{
+    font-size: 1.5rem;
+}
+
+.dish1-img:hover{
+    height: 18rem;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
+
+.dish2-img{
+    background-image: url("img2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16rem;
+    transition: all 1s ease;
+}
+
+.dish1-img:hover{
+    height: 18rem;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
+
+.dish2-img:hover{
+    height: 18rem;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
