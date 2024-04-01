@@ -116,6 +116,11 @@ h1{
     width: 100%;
 }
 
+.dishes a{
+    color: #000;
+    text-decoration: none;
+}
+
 .dish{
     width: 20rem;
     height: 15rem;
@@ -184,6 +189,11 @@ h1{
     margin-left: 4rem;
     margin-top: 5rem;
     color: black;
+}
+
+.collection a{
+    color: black;
+    text-decoration: none;
 }
 
 .collection-places{
